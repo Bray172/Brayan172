@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="logo">logo</div>
+      <div class="cart">
+        <ion-icon name="cart-outline"></ion-icon>
+        <span id="cantidad">0</span>
+      </div>
+      
+
+      <div class="contenido-carrito" id="contenido-carrito">
+        <div class="encavezado-carrito">
+          <h2>Productos carrito</h2>
+          <span id="cerrar">x</span>
+        </div>
+        <div class="contenedor-carrito">
+          <!-- <div class="producto-carrito">
+            <img src="/images/ph1.png" alt="" />
+            <div class="contenido-cart">
+              <h5>titulo producto</h5>
+              <p class="precio">$2333</p>
+               <p class="cantidad">cantidad :2</p>
+            </div>
+           <span class="btn-cerrar"  id="btn-cerrar"><ion-icon name="trash-outline"></ion-icon></span>
+          </div> -->
+        </div>
+
+        <p >total <span id="precio">1990</span></p>
+      </div>
+    </header>
+
+    <!-- seccion PRODUCTO| -->
+
+    <section class="container">
+      <div class="section-product">
+        <div class="produdct">
+          <div><img src="/images/ph1.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar"class='btn-agregar'    data-id="1">Addto Cart</a>
+        </div>
+
+
+        <div class="produdct">
+          <div><img src="/images/ph2.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar" class='btn-agregar' data-id="2">Addto Cart</a>
+        </div>
+
+
+        <div class="produdct">
+          <div><img src="/images/ph3.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar"class='btn-agregar'  data-id="3">Addto Cart</a>
+        </div>
+
+        <div class="produdct">
+          <div><img src="/images/ph4.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar" class='btn-agregar' data-id="4">Addto Cart</a>
+        </div>
+
+        
+        <div class="produdct">
+          <div><img src="/images/ph5.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar"class='btn-agregar' data-id="5">Addto Cart</a>
+        </div>
+
+        
+        <div class="produdct">
+          <div><img src="/images/ph6.png" alt="" /></div>
+          <p class="titulo-producto">titulo DEL Producto</p>
+          <p class="precio-producto">$2999</p>
+          <a href="#" id="btn-agregar" class='btn-agregar'data-id="6">Addto Cart</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script src="/javaScript/app.js"></script>
+  </body>
+</html>

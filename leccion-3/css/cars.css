@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #e4e4e8;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    box-shadow: 0 7px 8px -3px grey;
+    position: fixed;
+    width: 100%;
+    margin-top: -10PX;
+    z-index: 99;
+
+}
+
+.container{
+    max-width: 1200px;
+    text-align: center;
+    margin: auto}
+
+    .header-section{
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+    }
+
+    .header-section div{
+        position: relative;
+    }
+    .header-section  p{
+        position: absolute;
+        right: -8px;
+        top: -24px;
+        background-color: #Fff;
+        color: red;
+        padding: 1px 6px ;
+        line-height: 18px;
+        border-radius: 50%;
+        font-weight: 700;
+    }
+
+    .logo{
+        width:154px;
+        height: 84px;
+        cursor: pointer;
+    }
+    .cart   {
+        width: 38px;
+        height:38px;
+        cursor: pointer;
+    }
+
+    .cart-products{
+        background-color: #fff;
+        position: absolute !important;
+        right: 18px;
+        top: 82px;
+        padding: 0 18px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+        min-width: 290px;
+        display: none;
+        max-height: 45rem;
+        overflow: unset;
+
+
+    }
+
+
+    .cart:hover{
+        margin-bottom: 15px;
+        transition-duration: .2s ;
+    }
+
+
+    .products{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 170px;
+    }
+
+
+    .carts{
+        max-width: 250px;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+
+    }
+    .carts img{
+        max-width: 100%;
+    }
+
+    .carts p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 600;
+        padding:  0 20px;
+        margin-bottom: 24px;
+
+    }
+    .carts div{
+        position: relative;
+    }
+
+    .carts div p{
+        position: absolute;
+        background-color: rgb(0, 235, 129);
+        color: #fff;
+        padding: 2px 7px 4px 21px;
+        right: 0;
+        top: 15px;
+        clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    }
+
+
+    .carts a{
+        text-decoration: none;
+        color: #fff;
+        background-color:red;
+        padding: 7px 23px;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    .carts a:hover{
+        background-color: #fff;
+        color: red;
+        border: 1px solid red;
+        transition: .1s ease;
+    }
+
+
+    .cart-products .items{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid red;
+    }
+
+    .cart-products .items .item-content{
+        width: 201px;
+        margin: 0 19px;
+         
+    }
+
+    .cart-products .items .item-content h5{
+        font-size:17px;
+        margin: 0;
+        font-weight: 400;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .cart-products .items span{
+        background-color: red;
+        padding: 0px 5px;
+        border-radius: 50%;
+        color: #fff;
+        font-family: system-ui;
+        cursor: pointer;
+    }
+    .cart-products .items .item-content h5.cart-price{
+        font-weight: 700;
+    }
+    .cart-products h3{
+        margin-bottom: 0;
+    }
+
+    .cart-products .items img{
+        width: 115px;
+    }
+    /*stye to btn close*/
+p.close-btn{
+    top: -4px;
+    right: 6px;
+    cursor: pointer;
+    color: #000;
+}
+
+p.author {
+    display: flex;
+    justify-content: center;
+    FONT-VARIANT: JIS04;
+    margin-top: 3%;
+    gap: 7px;
+}
+p.author a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+}
